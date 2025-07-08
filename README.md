@@ -1,55 +1,84 @@
+# 🏘️ NeighborFit
 
-🏡 NeighborFit
-NeighborFit is a full-stack web application that recommends the best neighborhood for users based on their lifestyle preferences such as nature, nightlife, public transport, and education. The goal is to provide personalized suggestions using a simple and intuitive interface.
+**NeighborFit** is a full-stack lifestyle-based neighborhood recommendation app. Users select their lifestyle preferences, and the app suggests the best matching neighborhood using a custom algorithm.
 
-✨ Features
-✅ Interactive user interface to select lifestyle preferences
+---
 
-🧠 Smart matching algorithm to suggest the best-fit neighborhood
+## 📚 Table of Contents
 
-🎨 Beautiful UI with Tailwind CSS and responsive design
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+  - [Backend Setup](#backend-setup)
+  - [Frontend Setup](#frontend-setup)
+- [Folder Structure](#-folder-structure)
+- [Screenshots](#-screenshots)
+- [Future Enhancements](#-future-enhancements)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-⚡ Real-time matching using Axios with a Node.js backend
+---
 
-🌐 Modular project structure for scalability
+## ✨ Features
 
-🧱 Tech Stack
-Frontend:
-⚛️ React – For dynamic and component-based UI
+- 🎯 User selects preferences like:
+  - Nature
+  - Nightlife
+  - Good Schools
+  - Public Transport
+- 🧠 Recommends best-matched neighborhood based on backend scoring
+- 💅 Responsive and animated UI with Tailwind CSS
+- 🔗 Full-stack React + Node.js/Express app with API integration
+- 📦 Clean modular folder structure
 
-🎨 Tailwind CSS – Utility-first CSS for modern styling
+---
 
-🔗 Axios – To handle HTTP requests
+## 🧰 Tech Stack
 
-Backend:
-🟩 Node.js + Express.js – For building RESTful API
+### Frontend
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/)
 
-📦 Body-parser / CORS – Middleware for secure and smooth data handling
+### Backend
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [CORS](https://www.npmjs.com/package/cors)
+- [Body-Parser](https://www.npmjs.com/package/body-parser)
 
-🚀 Getting Started
-Clone the repository and follow the steps below to start both frontend and backend servers locally.
+---
 
-📁 Backend Setup
+## 🚀 Getting Started
+
+To run this project locally:
+
+### ✅ Backend Setup
+
 cd server
 npm install
 npm start
-Runs the server on http://localhost:5000
+Runs on: http://localhost:5000
 
-🖥️ Frontend Setup
+✅ Frontend Setup
+
 cd client
 npm install
 npm start
-Runs the React app on http://localhost:3000
+Runs on: http://localhost:3000
 
-🧠 Future Improvements
-🌍 Add map-based visualization of neighborhoods
+Future Enhancements
+🔐 Add user authentication & saved preferences
 
-🧾 Store past searches and preferences using user accounts
+🗺️ Integrate Google Maps API for geo visualization
 
 🧪 Add unit and integration tests
 
-📊 Integrate data sources for real neighborhood metrics
+🌐 Deploy on Vercel/Render/Netlify + Railway
 
-🤝 Contributions
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+🤝 Contributing
+Contributions are welcome!
+Feel free to fork the repo and submit a pull request. For major changes, open an issue first.
 
+## ✍️ Author
+
+- **Jaivanth Koppula**  
